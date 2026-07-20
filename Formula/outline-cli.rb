@@ -1,26 +1,26 @@
 class OutlineCli < Formula
   desc "CLI for Outline (self-hosted-focused)"
   homepage "https://github.com/agynio/outline-cli"
-  version "0.2.1"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/agynio/outline-cli/releases/download/v0.2.1/outline_v0.2.1_darwin_arm64.tar.gz"
-      sha256 "de93d179df4483120768270b7fbdbbbf5487ee24523fe0e54e7b8e11e35b4275"
+      url "https://github.com/agynio/outline-cli/releases/download/v0.4.0/outline_v0.4.0_darwin_arm64.tar.gz"
+      sha256 "844b4fda204c1a35efe7eeddc90ca03cc649fa33f8081ea61c781a95b2f2936f"
     else
-      url "https://github.com/agynio/outline-cli/releases/download/v0.2.1/outline_v0.2.1_darwin_amd64.tar.gz"
-      sha256 "9f8abd52b69cbf5912244fc21cb36b3e94f6be1bd52c730ce7eeeadd63481ca2"
+      url "https://github.com/agynio/outline-cli/releases/download/v0.4.0/outline_v0.4.0_darwin_amd64.tar.gz"
+      sha256 "e94c7e2c2e10be388ac7a06da82633b519886ac21c18f6e74e6a7791ebd686d1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/agynio/outline-cli/releases/download/v0.2.1/outline_v0.2.1_linux_arm64.tar.gz"
-      sha256 "c9610b60229b9e697d86b63f85779f4b82ebd4a46396c6e9492b26193725b800"
+      url "https://github.com/agynio/outline-cli/releases/download/v0.4.0/outline_v0.4.0_linux_arm64.tar.gz"
+      sha256 "59e4e11992cc27a2a8b5f1b7d91584b651c3f63e2acd46f9d5ab8bcec09a14aa"
     else
-      url "https://github.com/agynio/outline-cli/releases/download/v0.2.1/outline_v0.2.1_linux_amd64.tar.gz"
-      sha256 "1926024f9ce18d40aae8e41c249eb666c9329bd070553c46328a2c83ad3903ce"
+      url "https://github.com/agynio/outline-cli/releases/download/v0.4.0/outline_v0.4.0_linux_amd64.tar.gz"
+      sha256 "c196929400d728cf0832755afd2baa50c5d1e7b421b943206fc7e139e42cfaa3"
     end
   end
 
