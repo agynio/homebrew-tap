@@ -1,25 +1,25 @@
 class Agyn < Formula
   desc "CLI for the Agyn platform"
   homepage "https://github.com/agynio/agyn-cli"
-  version "0.2.20"
+  version "0.2.21"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/agynio/agyn-cli/releases/download/v0.2.20/agyn_v0.2.20_darwin_arm64.tar.gz"
-      sha256 "597628801def1431eb33a866fbdb9772cc5dd467df8f2bfb05eee5f3fba6cfe9"
+      url "https://github.com/agynio/agyn-cli/releases/download/v0.2.21/agyn_v0.2.21_darwin_arm64.tar.gz"
+      sha256 "5f6bbc9d0650f045c507b980947ca7c8edb648c0bd6731e4469ba24c9b827bef"
     else
-      url "https://github.com/agynio/agyn-cli/releases/download/v0.2.20/agyn_v0.2.20_darwin_amd64.tar.gz"
-      sha256 "92e15e37979befa69d24473ae0f14390a92e2f0b064d023abd24669788378388"
+      url "https://github.com/agynio/agyn-cli/releases/download/v0.2.21/agyn_v0.2.21_darwin_amd64.tar.gz"
+      sha256 "c87cd60d552056e696f5a824a7f17fa1071caf3c0dc2758a64276a640883d9e7"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/agynio/agyn-cli/releases/download/v0.2.20/agyn_v0.2.20_linux_arm64.tar.gz"
-      sha256 "96abfdf3a60e8a885435784f603d6d709c40d9b30a2f1c593dce37456dccc85f"
+      url "https://github.com/agynio/agyn-cli/releases/download/v0.2.21/agyn_v0.2.21_linux_arm64.tar.gz"
+      sha256 "5661d2abc66123185f84a77a72a2de7df47476793ec720d8532196254c6a63ed"
     else
-      url "https://github.com/agynio/agyn-cli/releases/download/v0.2.20/agyn_v0.2.20_linux_amd64.tar.gz"
-      sha256 "c4c38883942d733f9d7b73c042e69cbc41a9715b1758e8490eb7d1a4dd563a3c"
+      url "https://github.com/agynio/agyn-cli/releases/download/v0.2.21/agyn_v0.2.21_linux_amd64.tar.gz"
+      sha256 "a5cbac7f3a781be98f8308ea350ce9e8010eb64f07bb35f64656fdbacbfbffba"
     end
   end
 
